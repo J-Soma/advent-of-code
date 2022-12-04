@@ -4,7 +4,7 @@ with open('input.txt', 'r') as input_file:
     group_priorities = 0
     group = []
 
-    for index, line in enumerate(input_file):
+    for line in input_file:
         line = line.replace('\n','')
 
         if (len(line) != 0):
